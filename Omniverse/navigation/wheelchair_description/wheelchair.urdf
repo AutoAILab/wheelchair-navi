@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="wheelchair">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.078141 0.0020322 0.12611"
+        rpy="1.5 0 0" />
+      <mass
+        value="196.41" />
+      <inertia
+        ixx="36.206"
+        ixy="0.05605"
+        ixz="3.1325"
+        iyy="40.972"
+        iyz="-0.14513"
+        izz="14.592" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5 0 0" />
+      <geometry>
+        <mesh
+          filename="package://carter_description/urdf/meshes/base_link.obj" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="-0.078141 0.0020322 0.12611"
+        rpy="1.5 0 0" />
+      <geometry>
+        <mesh
+          filename="package://carter_description/urdf/meshes/base_link.obj" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Left_front_Link">
+    <inertial>
+      <origin
+        xyz="0.00018872 -0.032528 0.00021154"
+        rpy="1.5 0 0" />
+      <mass
+        value="3.5572" />
+      <inertia
+        ixx="0.027884"
+        ixy="-1.9059E-08"
+        ixz="1.3976E-06"
+        iyy="0.053488"
+        iyz="-2.1364E-08"
+        izz="0.027737" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5 0 0" />
+      <geometry>
+        <mesh
+          filename="package://carter_description/urdf/meshes/Left_front_Link.obj" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0.00018872 -0.032528 0.00021154"
+        rpy="1.5 0 0" />
+      <geometry>
+        <mesh
+          filename="package://carter_description/urdf/meshes/Left_front_Link.obj" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Left_front_Joint"
+    type="continuous">
+    <origin
+      xyz="0.16205 0.325 -0.48811"
+      rpy="0 -0.018363 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Left_front_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="Left_behind_Link">
+    <inertial>
+      <origin
+        xyz="2.673E-05 -0.0195 4.0068E-05"
+        rpy="1.5 0 0" />
+      <mass
+        value="1.3518" />
+      <inertia
+        ixx="0.003306"
+        ixy="-9.1911E-19"
+        ixz="-3.2581E-07"
+        iyy="0.0058713"
+        iyz="-1.0703E-19"
+        izz="0.0033095" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5 0 0" />
+      <geometry>
+        <mesh
+          filename="package://carter_description/urdf/meshes/Left_behind_Link.obj" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="2.673E-05 -0.0195 4.0068E-05"
+        rpy="1.5 0 0" />
+      <geometry>
+        <mesh
+          filename="package://carter_description/urdf/meshes/Left_behind_Link.obj" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Left_behind_Joint"
+    type="continuous">
+    <origin
+      xyz="-0.47656 0.27725 -0.56985"
+      rpy="0 -0.018363 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Left_behind_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="Right_front_Link">
+    <inertial>
+      <origin
+        xyz="-0.00016288 0.032528 -0.00023202"
+        rpy="1.5 0 0" />
+      <mass
+        value="3.5572" />
+      <inertia
+        ixx="0.027727"
+        ixy="-1.6449E-08"
+        ixz="1.3976E-06"
+        iyy="0.053488"
+        iyz="-2.3432E-08"
+        izz="0.027893" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5 0 0" />
+      <geometry>
+        <mesh
+          filename="package://carter_description/urdf/meshes/Right_front_Link.obj" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="-0.00016288 0.032528 -0.00023202"
+        rpy="1.5 0 0" />
+      <geometry>
+        <mesh
+          filename="package://carter_description/urdf/meshes/Right_front_Link.obj" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Right_front_Joint"
+    type="continuous">
+    <origin
+      xyz="0.16205 -0.325 -0.48811"
+      rpy="0 -0.018363 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Right_front_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="Right_behind_Link">
+    <inertial>
+      <origin
+        xyz="-2.673E-05 -0.0195 4.0068e-05"
+        rpy="1.5 0 0" />
+      <mass
+        value="1.3518" />
+      <inertia
+        ixx="0.003306"
+        ixy="-9.1911E-19"
+        ixz="-3.2581E-07"
+        iyy="0.0058713"
+        iyz="-1.0703E-19"
+        izz="0.0033095" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5 0 0" />
+      <geometry>
+        <mesh
+          filename="package://carter_description/urdf/meshes/Right_behind_Link.obj" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="-2.673E-05 -0.0195 4.0068e-05"
+        rpy="1.5 0 0" />
+      <geometry>
+        <mesh
+          filename="package://carter_description/urdf/meshes/Right_behind_Link.obj" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Right_behind_Joint"
+    type="continuous">
+    <origin
+      xyz="-0.47656 -0.27775 -0.56985"
+      rpy="0 -0.018363 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Right_behind_Link" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <!--
+  <joint
+     name="camera_joint" type="fixed">
+     <parent link="base_link" />
+     <child link="Zed2i_link" />
+     <origin
+        xyz="0.21738 0.30495 0.58918"
+        rpy="0 0 90" />
+  </joint>
+  <link
+      name="Zed2i_link" >
+      <inertial>
+         <origin
+            xyz="-0.0043975 0 -1.3878E-17"
+            rpy="0 0 0" />
+         <mass
+            value="0.29878" />
+         <inertia
+            ixx="0.00088503"
+            ixy="-1.8482E-20"
+            ixz="=8.1315E-20"
+            iyy="0.00017432"
+            iyz="6.4186E-20"
+            izz="0.00074329" />
+      </inertial>
+      <visual>
+         <origin
+            xyz="0 0 0"
+            rpy="0 0 0" />
+         <geometry>
+            <mesh
+               filename="package://carter_description/urdf/meshes/ZED2i.obj" scale="0.001 0.001 0.001"/>
+         </geometry>
+         <material
+            name="" >
+               <color
+                  rgba="1 1 1 1" />
+         </material>
+      </visual>
+      <collision>
+         <origin
+            xyz="0 0 0"
+            rpy="0 0 0" />
+         <geometry>
+            <mesh
+                filename="package://carter_description/urdf/meshes/ZED2i.obj" scale="0.001 0.001 0.001" />
+         </geometry>
+      </collision>
+  </link>
+          -->                                                              	
+</robot>
