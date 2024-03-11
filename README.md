@@ -1,8 +1,10 @@
 # CU-ICAR Autonomous Wheelchair for Assistive Mobility
 
-Clemson University, International Center for Automotive Research (CU-ICAR)
+Clemson University, International Center for Automotive Research (CU-ICAR), Department of Automotive Engineering.
 
-Authors: Amogh V. Reddy, Zack Yang, and Bing Li (AutoAI Research Lab, Email: bli4@clemson.edu)
+Authors: Amogh V. Reddy and Zack Yang; Advisor: Bing Li (AutoAI Research Lab, Email: bli4@clemson.edu)
+
+MS Thesis of Amogh V. Reddy: "Virtual Prototyping and Validation for Autonomous Assistive Mobility": https://tigerprints.clemson.edu/all_theses/4146
 
 # wheelchair-navi repo
 
