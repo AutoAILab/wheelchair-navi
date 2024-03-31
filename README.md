@@ -1,4 +1,4 @@
-# CU-ICAR Autonomous Wheelchair for Assistive Mobility
+# Robotic Wheelchair Nvidia-Isaac Simulation and Validation
 
 Clemson University, International Center for Automotive Research (CU-ICAR), Department of Automotive Engineering.
 
