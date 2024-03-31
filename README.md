@@ -2,9 +2,10 @@
 
 Clemson University, International Center for Automotive Research (CU-ICAR), Department of Automotive Engineering.
 
-Authors: Amogh V. Reddy and Zack Yang; Advisor: Bing Li (AutoAI Research Lab, Email: bli4@clemson.edu)
-
-MS Thesis of Amogh V. Reddy: "Virtual Prototyping and Validation for Autonomous Assistive Mobility": https://tigerprints.clemson.edu/all_theses/4146
+Authors: Amogh V. Reddy and Zongming Yang and Bing Li (AutoAI Research Lab, Email: bli4@clemson.edu)
+- Venkataramana Reddy, Amogh, "Virtual Prototyping and Validation for Autonomous Assistive Mobility" (2023), Clemson University
+Master Thesis: https://tigerprints.clemson.edu/all_theses/4146 
+- Yang, Zongming, Bing Li et al. "SeeWay: Vision-Language Assistive Navigation for the Visually Impaired." IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2022. Best Paper Finalist.
 
 # wheelchair-navi repo
 
@@ -19,5 +20,5 @@ Autonomous wheelchair simulation and demo in:
 - ROS and navigation test in the CU-ICAR Lab.
 
 (Click below to view the demo in YouTube)
-[<img src="http://i3.ytimg.com/vi/gH5Pc490Atc/hqdefault.jpg" width="80%">](https://youtu.be/gH5Pc490Atc "CU-ICAR Autonomous Wheelchair for Assistive")
+[<img src="http://i3.ytimg.com/vi/pSvnwjfatho/hqdefault.jpg" width="80%">]([https://youtu.be/gH5Pc490Atc](https://youtu.be/pSvnwjfatho) "Autonomous Wheelchair with Nvidia Isaac Digital Design and ROS Validation")
 
