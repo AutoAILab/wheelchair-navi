@@ -20,5 +20,5 @@ Autonomous wheelchair simulation and demo in:
 - ROS and navigation test in the CU-ICAR Lab.
 
 (Click below to view the demo in YouTube)
-[<img src="http://i3.ytimg.com/vi/pSvnwjfatho/hqdefault.jpg" width="80%">]([https://youtu.be/gH5Pc490Atc](https://youtu.be/pSvnwjfatho) "Autonomous Wheelchair with Nvidia Isaac Digital Design and ROS Validation")
+[<img src="http://i3.ytimg.com/vi/pSvnwjfatho/hqdefault.jpg" width="80%">](https://youtu.be/pSvnwjfatho "Autonomous Wheelchair with Nvidia Isaac Digital Design and ROS Validation")
 
